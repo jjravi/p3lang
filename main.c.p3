@@ -1,0 +1,18 @@
+# vim: set filetype=c:
+
+#include <stdio.h>
+
+int main(int argc, char *argv[]) {
+
+{.
+  my $gen_code='';
+  for (my $i=0; $i < $argv1; $i++)
+  {
+    $gen_code .= "  printf(\"hello: \%s\\n\", argv[0]);\n"
+  }
+  $gen_code
+.}
+
+  return 0;
+}
+
