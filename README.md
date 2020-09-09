@@ -2,7 +2,7 @@
 General Purpose Language Preprocessor Using Perl and Python
 
 Let's say you have a file called 
-main.c:
+`main.c`:
 ```
 #include <stdio.h>
 
@@ -23,9 +23,9 @@ to enable embedding perl code in any source code:
 `{.` _with perl code here_ `.}`
 
 `hint: If you are using vim, you can use modelines to force a particular syntax
-to override considering the file extension.`
+to override vim's syntax highlighting from considering the file extension.`
 
-main.c.p3:
+`main.c.p3`:
 ```
 # vim: set filetype=c:
 
