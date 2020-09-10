@@ -13,16 +13,16 @@ int main(int argc, char *argv[]) {
 ```
 
 You want hello world to be replicated at compile time instead of runtime. 
-How would you do it? Perl has some very niffy string parsing capabilities 
+How would you do it? Perl has built-in string parsing capabilities 
 and comes preinstalled in most systems. 
 
 You can write some perl code inside your original file. But it is not a 
 pure c code anymore, so we should rename the file so other developers do
 not think this is part of the c standard. I define a very simple syntax 
-to enable embedding perl code in any source code: 
+to enable embedding perl code in any source code:  
 `{.` _with perl code here_ `.}`
 
-`hint: If you are using vim, you can use modelines to force a particular syntax
+`note: If you are using vim, you can use modelines to force a particular syntax
 to override vim's syntax highlighting from considering the file extension.`
 
 `main.c.p3`:
